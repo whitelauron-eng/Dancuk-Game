@@ -1,4 +1,6 @@
 const $=id=>document.getElementById(id);let i=0,score=0,answers=[],locked=false;
+// Pastikan layar pembuka tampil saat halaman pertama kali dibuka.
+if(!document.querySelector(".screen.active")){document.getElementById("home")?.classList.add("active");}
 function screen(id){document.querySelectorAll(".screen").forEach(x=>x.classList.remove("active"));$(id).classList.add("active");scrollTo(0,0)}
 function norm(s){return String(s).toLowerCase().replace(/[.,!?']/g,"").replace(/\s+/g," ").trim()}
 function start(){i=0;score=0;answers=[];screen("quiz");draw()}
