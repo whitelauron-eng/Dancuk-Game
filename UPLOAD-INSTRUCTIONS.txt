@@ -1,0 +1,12 @@
+PENTING — UNGGAH KE ROOT REPOSITORY GITHUB
+
+1. Buka repository Dancuk-Game.
+2. Pastikan tab Code dan branch yang dipakai GitHub Pages (umumnya main).
+3. Buka folder paling luar/root repository, bukan folder lain.
+4. Unggah/enam berkas ini LANGSUNG di root: index.html, style.css, app.js, questions.js, Kisi-Kisi.md, README.md.
+5. Jika muncul pilihan, pilih Replace untuk berkas dengan nama sama.
+6. Jangan letakkan berkas-berkas ini di dalam folder jejak_argumen.
+7. Commit changes. Tunggu Pages selesai deploy.
+8. Buka https://whitelauron-eng.github.io/Dancuk-Game/ lalu tekan Ctrl+F5.
+
+Berkas UPLOAD-INSTRUCTIONS.txt hanya panduan dan tidak dibutuhkan situs.
